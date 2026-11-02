@@ -1,4 +1,4 @@
-# Sunbin 블로그
+# 노르빈딕슨 블로그
 
 [Jekyll Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)를 사용하는 GitHub Pages 블로그입니다.
 
@@ -40,7 +40,7 @@ git push origin main
 ## 설정 변경
 
 - 이름·소개·프로필: `_config.yml`
-- 소개 페이지: `_tabs/about.md`
+- 메뉴: 홈·카테고리·태그만 표시
 - 사이드바 연락처: `_data/contact.yml`
 - 댓글: 별도의 서비스와 개인정보 설정을 정한 뒤 활성화
 

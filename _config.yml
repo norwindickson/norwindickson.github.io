@@ -14,9 +14,9 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Sunbin # the main title
+title: 노르빈딕슨 # the main title
 
-tagline: 공부와 개발 기록
+tagline: ""
 
 description: >- # used by seo meta and the atom feed
   공부한 개념과 개발 과정, 기술적인 문제 해결을 기록하는 블로그.
@@ -34,7 +34,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Sunbin
+  name: 노르빈딕슨
   email: ""
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
