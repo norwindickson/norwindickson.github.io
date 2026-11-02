@@ -45,6 +45,9 @@ jobs:
           ruby-version: 3.4
           bundler-cache: true
 
+      - name: Test offline-cache migration
+        run: node --test tests/navigation-cache.test.cjs
+
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:

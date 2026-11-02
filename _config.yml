@@ -148,9 +148,9 @@ assets:
     env: # [development | production]
 
 pwa:
-  enabled: true # The option for PWA feature (installable)
+  enabled: false # Disable stale offline page caching.
   cache:
-    enabled: true # The option for PWA offline cache
+    enabled: false # Disable stale offline page caching.
     # Paths defined here will be excluded from the PWA cache.
     # Usually its value is the `baseurl` of another website that
     # shares the same domain name as the current website.
@@ -220,6 +220,7 @@ exclude:
   - "*.gem"
   - "*.gemspec"
   - docs
+  - tests
   - tools
   - README.md
   - LICENSE
